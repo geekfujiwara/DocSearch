@@ -1,6 +1,33 @@
 # 社内ドキュメント検索アプリ
 社内SharePoint & OneDrive をユーザー権限で検索できるPower Apps です。また、SharePoint ドキュメントライブラリから取得したPDFファイルを要約する機能も付属しています。
 
-ソリューションは[こちら](https://github.com/geekfujiwara/DocSearch/releases/tag/DocSearch)より入手できます。
 
+
+## 前提条件
+
+- **ライセンス**
+  - Power Apps Premium ライセンス 
+  - AI Builder アドインライセンス (クレジットを基本ライセンスに付与されている分を超過して必要な場合)
+
+## 制限事項
+
+- AI Builder のAIプロンプトで利用しているモデルはGPT-4oです。そのため128,000トークンが上限です。
+- 要約するドキュメントはPDF、または画像フォーマットである必要があります。
+
+## ソリューションのインストール方法
+
+1. **Power Apps ポータルにアクセス**
+   - [Microsoft Power Apps 作成者ポータル](https://make.powerapps.com/)にログインします。
+
+2. **ソリューションのインポート**
+   - [本ソリューションのリリース](https://github.com/geekfujiwara/DocSearch/releases/tag/DocSearch)からソリューションファイルを取得します。
+   - Power Apps ポータルで「ソリューション」セクションに移動し、「インポート」ボタンをクリックして、ダウンロードしたソリューションファイルをアップロードします。
+   - ラベルがないなどの警告が表示されたとしても問題ありません。
+
+3. **すべてのカスタマイズの公開**
+   - インポートしたソリューション内に入ります。**マネージド**のタブにソリューションは入っています。
+   - そのまま、すべてのカスタマイズの公開を行います。
+   - インポート後にPower Automate のフローが オフになっている場合は有効化してください。
+
+![image](https://github.com/user-attachments/assets/5f8ddd93-eefa-4be3-9211-e8e100326f9d)
 
