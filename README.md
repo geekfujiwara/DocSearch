@@ -16,6 +16,32 @@
 - 要約するドキュメントはPDF、または画像フォーマットである必要があります。
 - 対応しているファイル形式は以下のとおりです。`doc、docx、epub、eml、htm、html、md、msg、odp、ods、odt、pdf、pps、ppsx、ppt、pptx、rtf、tif、tiff、xls、xlsm、xlsx`
 
+
+## こだわりポイント
+
+### 複数のファイル形式に対応
+
+PowerPoint ファイルであっても、一度PDFに変換してOCRを行い、AIプロンプトで処理できるようにしています。
+
+こちらはPowerPoint ファイルを入力した結果です。
+![image](https://github.com/user-attachments/assets/e750c10d-be7e-495e-a975-d5be05eaccc0)
+
+こちらはExcel ファイルを入力した結果です。
+![image](https://github.com/user-attachments/assets/9d3566dd-47b4-4ff3-b6c6-1bb9453f1247)
+
+### 出力結果の保存
+出力結果を保存して、後に見直すことができるようにしています。
+
+![image](https://github.com/user-attachments/assets/d0c7e8e2-09fd-48f8-8717-f019451e760f)
+
+
+### ファイル内容について追加で質問できる
+
+ファイル内容について追加で質問することができ、深堀りすることができます。
+![image](https://github.com/user-attachments/assets/b6e3eaa5-5669-4936-a2a8-639a82c772cf)
+
+
+
 ## ソリューションのインストール方法
 
 1. **Power Apps ポータルにアクセス**
@@ -41,5 +67,70 @@
 
    - 有効化はこのように行います。
 ![image](https://github.com/user-attachments/assets/9542e0e3-d00f-41bd-88b7-c000ea394d50)
+
+
+## 初回アプリ起動時
+
+アプリはこちらから起動できます。
+
+![image](https://github.com/user-attachments/assets/bc3d78e0-96e9-4f77-b1da-c1ef93437847)
+
+起動時にはサインインが求められます。これにより、ユーザーの権限でファイル検索が行えるようになっています。
+
+![image](https://github.com/user-attachments/assets/149e26d2-e3e3-4636-be4a-05ca43d03add)
+
+SharePoint に対して検索を行います。
+
+> [!Note]
+> 自然言語またはキーワードを入力することができます。
+
+要約が可能なファイル形式の場合は要約ボタンが活性化していますが、要約に対応していないファイル形式については非活性化しています。
+
+![image](https://github.com/user-attachments/assets/b6952a6b-31c9-461f-8799-e6c1762dd071)
+
+
+## トラブルシューティング
+このようなエラーメッセージが表示されましたら、接続情報を更新する必要があります。
+
+![image](https://github.com/user-attachments/assets/e79f72ea-7373-430d-9d77-0b4b46249a00)
+
+
+ソリューションから要約のフローを選択して確認します。
+
+![image](https://github.com/user-attachments/assets/411f191e-71cd-4cb9-a2ba-3af632eb2e9f)
+
+このようにSharePoint のアクセス許可がエラーになっていることがわかります。
+
+![image](https://github.com/user-attachments/assets/211247c5-5bba-4417-b6f1-0847a573f6ce)
+
+ Power Automate を開き、接続を更新します。
+
+ ![image](https://github.com/user-attachments/assets/ccfdc04f-c533-44e4-9ff7-ae4253b24acd)
+
+接続を更新されるように促されます。
+
+![image](https://github.com/user-attachments/assets/eb21c5fc-6217-416f-8ee3-1b57afd57aa7)
+
+> [!Note]
+> もし促されなかった場合、こちらから接続を選択できます。
+> ![image](https://github.com/user-attachments/assets/2f945571-00c1-4c7e-8ff3-c134f2951676)
+
+再接続を行います。
+
+![image](https://github.com/user-attachments/assets/ad393eb9-8790-4b4a-a767-7a14c0d43e55)
+
+
+問題が解消しましたら、アプリに戻ります。
+
+![image](https://github.com/user-attachments/assets/9f8aa94c-4818-42c2-8e20-81471698355d)
+
+要約を実行できるようになりました。
+
+![image](https://github.com/user-attachments/assets/64de52b7-a4f2-4ad3-b302-bcb3fb7ca8bf)
+
+出力結果がこのように表示されました。
+
+![image](https://github.com/user-attachments/assets/41dc6844-e2cc-41d9-ae5b-6ccd3c5f7276)
+
 
 以上
