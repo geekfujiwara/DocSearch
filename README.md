@@ -1,6 +1,10 @@
 # 社内ドキュメント検索アプリ
 社内SharePoint & OneDrive をユーザー権限で検索できるPower Apps です。また、SharePoint ドキュメントライブラリから取得したファイルを要約する機能、フリーに質問する機能も備わっています。
 
+
+https://github.com/user-attachments/assets/eecaa929-3b13-4481-9473-0d67b5298d68
+
+
 > [!Note]
 > 事前にSharePoint ドキュメントライブラリにファイルを保存しておいてください。
 
