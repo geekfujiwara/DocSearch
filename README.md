@@ -4,15 +4,20 @@
 
 https://github.com/user-attachments/assets/eecaa929-3b13-4481-9473-0d67b5298d68
 
+> [!note]
+> ギークの[Xのポスト](https://x.com/geekfujiwara/status/1823299511055511731)まで是非ご感想を！
 
-> [!Note]
-> 事前にSharePoint ドキュメントライブラリにファイルを保存しておいてください。
+
 
 ## 前提条件
 
 - **ライセンス**
   - Power Apps Premium ライセンス 
   - AI Builder アドインライセンス (クレジットを基本ライセンスに付与されている分を超過して必要な場合)
+
+> [!Note]
+> 事前にSharePoint ドキュメントライブラリにファイルを保存しておいてください。
+
 
 ## 制限事項
 
