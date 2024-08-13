@@ -22,13 +22,13 @@ https://github.com/user-attachments/assets/eecaa929-3b13-4481-9473-0d67b5298d68
 ## 制限事項
 
 - AI Builder のAIプロンプトで利用しているモデルはGPT-4oです。そのため128,000トークンが上限です。
-- 要約するドキュメントはPDF、または画像フォーマットである必要があります。
-- 対応しているファイル形式は以下のとおりです。`doc、docx、epub、eml、htm、html、md、msg、odp、ods、odt、pdf、pps、ppsx、ppt、pptx、rtf、tif、tiff、xls、xlsm、xlsx`
+- 要約に対応しているファイル形式は以下のとおりです。`doc、docx、epub、eml、htm、html、md、msg、odp、ods、odt、pdf、pps、ppsx、ppt、pptx、rtf、tif、tiff、xls、xlsm、xlsx`
+- 検索は、SharePoint 検索できるファイル形式全般に対応しています。
 
 
 ## こだわりポイント
 
-### 複数のファイル形式に対応
+### 1. 様々なファイル形式に対応
 
 PowerPoint ファイルであっても、一度PDFに変換してOCRを行い、AIプロンプトで処理できるようにしています。
 
@@ -38,13 +38,13 @@ PowerPoint ファイルであっても、一度PDFに変換してOCRを行い、
 こちらはExcel ファイルを入力した結果です。
 ![image](https://github.com/user-attachments/assets/9d3566dd-47b4-4ff3-b6c6-1bb9453f1247)
 
-### 出力結果の保存
+### 2. 出力結果の保存
 出力結果を保存して、後に見直すことができるようにしています。
 
 ![image](https://github.com/user-attachments/assets/d0c7e8e2-09fd-48f8-8717-f019451e760f)
 
 
-### ファイル内容について追加で質問できる
+### 3. ファイル内容について追加で質問できる
 
 ファイル内容について追加で質問することができ、深堀りすることができます。
 ![image](https://github.com/user-attachments/assets/b6e3eaa5-5669-4936-a2a8-639a82c772cf)
@@ -78,7 +78,7 @@ PowerPoint ファイルであっても、一度PDFに変換してOCRを行い、
 ![image](https://github.com/user-attachments/assets/9542e0e3-d00f-41bd-88b7-c000ea394d50)
 
 
-## 初回アプリ起動時
+## アプリの実行
 
 アプリはこちらから起動できます。
 
