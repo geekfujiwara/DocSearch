@@ -62,6 +62,9 @@ PowerPoint ファイルであっても、一度PDFに変換してOCRを行い、
    - Power Apps ポータルで「ソリューション」セクションに移動し、「インポート」ボタンをクリックして、ダウンロードしたソリューションファイルをアップロードします。
 ![image](https://github.com/user-attachments/assets/e3e3824c-6913-472e-98fe-91c5fbac9b96)
 
+   - 接続 を設定する場面では、すべての接続を更新するようにしてください。
+   ![image](https://github.com/user-attachments/assets/58f7fdfb-025d-4b67-943c-c1fbeecdceed)
+
    - ラベルがないなどの警告が表示されたとしても問題ありません。
 ![image](https://github.com/user-attachments/assets/34b90db8-365f-48ce-ada9-1a31f31e7d13)
 
