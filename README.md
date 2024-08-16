@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/eecaa929-3b13-4481-9473-0d67b5298d68
 
 例えば、このようなシーンで利用できるのではないかと思っています。
 
-<img width="551" alt="image" src="https://github.com/user-attachments/assets/926b5c7a-bdcd-4025-bf3c-2e3db62b527c">
+![image](https://github.com/user-attachments/assets/926b5c7a-bdcd-4025-bf3c-2e3db62b527c)
 
 
 このアプリは、[YouTube 動画](https://youtu.be/9ZJ2BabtlLU)で紹介しています。
