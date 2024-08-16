@@ -7,7 +7,12 @@ https://github.com/user-attachments/assets/eecaa929-3b13-4481-9473-0d67b5298d68
 > [!note]
 > ギークの[Xのポスト](https://x.com/geekfujiwara/status/1823299511055511731)まで是非ご感想を！
 
+例えば、このようなシーンで利用できるのではないかと思っています。
 
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/926b5c7a-bdcd-4025-bf3c-2e3db62b527c">
+
+
+このアプリは、[YouTube 動画](https://youtu.be/9ZJ2BabtlLU)で紹介しています。
 
 ## 前提条件
 
